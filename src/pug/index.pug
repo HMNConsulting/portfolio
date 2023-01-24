@@ -40,7 +40,7 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#portfolio') Portfolio
                         li.nav-item
-                            a.nav-link(href='#about') About
+                            a.nav-link(href='#resources') Resources
                         li.nav-item
                             a.nav-link(href='#team') Team
                         li.nav-item
@@ -48,36 +48,37 @@ html(lang='en')
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Welcome To Our Studio!
-                .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                .masthead-subheading You've got 99 problems
+                .masthead-heading.text-uppercase but hmn ain't one
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#contact') Free Estimate
 
         // Services
         section#services.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted A few of our core services and offerings
                 .row.text-center
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 E-Commerce
+                            i.fas.fa-phone.fa-stack-1x.fa-inverse
+                        h4.my-3 Consultation
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | We can provide assistance at many stages of your project, from site-analysis and feasibility studies to design and project management.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Responsive Design
+                        h4.my-3 Drafting
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | We provide a variety of drafting services including but not limited to:
+                            
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Web Security
+                            i.fas.fa-pen-fancy.fa-stack-1x.fa-inverse
+                        h4.my-3 Permitting
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
@@ -86,7 +87,7 @@ html(lang='en')
             .container
                 .text-center
                     h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted A selection of project examples.
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 1
@@ -97,8 +98,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
+                                .portfolio-caption-heading Construction
+                                .portfolio-caption-subheading.text-muted Proposed gas and electric utility additions.
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
@@ -108,8 +109,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading Traffic Control
+                                .portfolio-caption-subheading.text-muted Temporary Traffic Control plans
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
@@ -155,13 +156,21 @@ html(lang='en')
                                 .portfolio-caption-heading Window
                                 .portfolio-caption-subheading.text-muted Photography
 
+        // Resources
+        section#resources.page-section
+            .container
+                .text-center
+                    // h2.section-heading.text-uppercase Resources
+                    // h3.section-subheading.text-muted Here are some helpful resources for permitting &amp; tracking projects.
+                    | <iframe class="clickup-embed clickup-dynamic-height" src="https://share-docs.clickup.com/42035737/d/h/182ugt-1768/0e547cff15dd660" onwheel="" width="100%" height="700px" style="background: transparent; border: 0;"></iframe>
+
         // About
-        section#about.page-section
+        //section#about.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                ul.timeline
+                    h3.section-subheading.text-muted We take a creative and systematic approach to engineer comprehensive solutions for our clients at HMN. Leading projects from creation through engineering constrctuion plans &amp; permitting. Our vision encourages creativity, accountability, and respect. This environment allows our professionals to freely perform with excellence for our valued clients. 
+                //ul.timeline
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='...')
@@ -216,31 +225,31 @@ html(lang='en')
             .container
                 .text-center
                     h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted We take a creative and systematic approach to engineer comprehensive solutions for our clients at HMN. Leading projects from creation through engineering constrctuion plans &amp; permitting. Our vision encourages creativity, accountability, and respect. This environment allows our professionals to freely perform with excellence for our valued clients. 
                 .row
-                    .col-lg-4
+                    .col-lg-6
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...')
-                            h4 Parveen Anand
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Twitter Profile')
+                            h4 Zachary Finley
+                            p.text-muted Co-Owner
+                            //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Twitter Profile')
                                 i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Facebook Profile')
+                            //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Facebook Profile')
                                 i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand LinkedIn Profile')
+                            //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand LinkedIn Profile')
                                 i.fab.fa-linkedin-in
-                    .col-lg-4
+                    .col-lg-6
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
-                            h4 Diana Petersen
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Twitter Profile')
+                            h4 Jacob Jaskowiak
+                            p.text-muted Co-Owner
+                            //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Twitter Profile')
                                 i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Facebook Profile')
+                            //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen Facebook Profile')
                                 i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen LinkedIn Profile')
+                            //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen LinkedIn Profile')
                                 i.fab.fa-linkedin-in
-                    .col-lg-4
+                    //.col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
                             h4 Larry Parker
@@ -254,7 +263,7 @@ html(lang='en')
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+                            | HMN Consulting, LLC was founded by a team of experienced professionals partnering for 10 years. Our team of professionals will review existing infrastructure and field conditions during construction design. A dedicated team of unique individuals utilizing their expertise to achieve company and client goals.
 
         // Clients
         div.py-5
@@ -276,6 +285,8 @@ html(lang='en')
         // Contact
         section#contact.page-section
             .container
+                <iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/42035737/f/182ugt-1588/SM7X65BDQKIUHAS2HI" onwheel="" width="100%" height="100%" style="background: none transparent;" allowtransparency="true"></iframe><script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
+
                 //.text-center
                 //    h2.section-heading.text-uppercase Contact Us
                 //   h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
@@ -353,8 +364,6 @@ html(lang='en')
                     .text-center
                         button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
 
-            <iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/42035737/f/182ugt-1588/SM7X65BDQKIUHAS2HI" onwheel="" width="100%" height="100%" style="background: none transparent;" allowtransparency="true"></iframe><script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
-
         // Footer
         footer.footer.py-4
             .container
@@ -362,9 +371,9 @@ html(lang='en')
                     .col-lg-4.text-lg-start
                         | Copyright &copy; HMN Consulting, LLC 2023
                     .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
+                        //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
                             i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
+                        //a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
                             i.fab.fa-facebook-f
                         a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='LinkedIn')
                             i.fab.fa-linkedin-in
