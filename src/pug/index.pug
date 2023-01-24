@@ -5,7 +5,7 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='HMN Consulting, LLC. planning and permitting service')
+        meta(name='description', content='HMN Consulting, LLC. engineering and permitting services')
         meta(name='author', content='permit@hmnconsult.com')
 
         title HMN Consulting
@@ -39,25 +39,26 @@ html(lang='en')
                             a.nav-link(href='#services') Services
                         li.nav-item
                             a.nav-link(href='#portfolio') Portfolio
-                        li.nav-item
-                            a.nav-link(href='#resources') Resources
-                        li.nav-item
+                        //li.nav-item
+                            a.nav-link(href='#questions') Questions
+                        //li.nav-item
                             a.nav-link(href='#team') Team
                         li.nav-item
                             a.nav-link(href='#contact') Contact
         // Masthead
         header.masthead
             .container
-                .masthead-subheading You've got 99 problems
-                .masthead-heading.text-uppercase but hmn ain't one
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#contact') Free Estimate
+                .masthead-subheading permitting may seem challenging
+                .masthead-heading.text-uppercase but it doesn't have to
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#contact') Contact Us
 
         // Services
         section#services.page-section
             .container
                 .text-center
+                    h3.section-subheading.text-muted Our end-to-end service guarantees efficient communication, timely drafting and processing of permits. #[a.link(href='#contact') Contact us] as soon as you plan to start your construction project, to ensure a speedy permit approval process.
                     h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted A few of our core services and offerings
+                    // h3.section-subheading.text-muted A few of our core services and offerings
                 .row.text-center
                     .col-md-4
                         span.fa-stack.fa-4x
@@ -72,7 +73,12 @@ html(lang='en')
                             i.fas.fa-laptop.fa-stack-1x.fa-inverse
                         h4.my-3 Drafting
                         p.text-muted
-                            | We provide a variety of drafting services including but not limited to:
+                            | We provide a variety of drafting services including:
+                            li Construction Drawings
+                            li Traffic Control Plans
+                            li Noise Permits
+                            li Utility Maps
+                            li EMRA
                             
                     .col-md-4
                         span.fa-stack.fa-4x
@@ -80,7 +86,7 @@ html(lang='en')
                             i.fas.fa-pen-fancy.fa-stack-1x.fa-inverse
                         h4.my-3 Permitting
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | We are experiened with permitting requirements across Southern California, specializing in San Diego County and Greater Los Angeles.
 
         // Portfolio Grid
         section#portfolio.page-section.bg-light
@@ -96,9 +102,9 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='an image of an example construction drawing')
                             .portfolio-caption
-                                .portfolio-caption-heading Construction
+                                .portfolio-caption-heading Construction Plan
                                 .portfolio-caption-subheading.text-muted Proposed gas and electric utility additions.
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
@@ -120,9 +126,9 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                                .portfolio-caption-heading EMRA
+                                .portfolio-caption-subheading.text-muted Encroachment Maintenance and Removal Agreement
+                    //.col-lg-4.col-sm-6.mb-4.mb-lg-0
                         // Portfolio item 4
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
@@ -133,7 +139,7 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading Lines
                                 .portfolio-caption-subheading.text-muted Branding
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                    //.col-lg-4.col-sm-6.mb-4.mb-sm-0
                         // Portfolio item 5
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
@@ -144,7 +150,7 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading Southwest
                                 .portfolio-caption-subheading.text-muted Website Design
-                    .col-lg-4.col-sm-6
+                    //.col-lg-4.col-sm-6
                         // Portfolio item 6
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
@@ -156,13 +162,14 @@ html(lang='en')
                                 .portfolio-caption-heading Window
                                 .portfolio-caption-subheading.text-muted Photography
 
-        // Resources
-        section#resources.page-section
+        // Questions
+        //section#questions.page-section
             .container
                 .text-center
-                    // h2.section-heading.text-uppercase Resources
-                    // h3.section-subheading.text-muted Here are some helpful resources for permitting &amp; tracking projects.
-                    | <iframe class="clickup-embed clickup-dynamic-height" src="https://share-docs.clickup.com/42035737/d/h/182ugt-1768/0e547cff15dd660" onwheel="" width="100%" height="700px" style="background: transparent; border: 0;"></iframe>
+                    h2.section-heading.text-uppercase Questions
+                    h3.section-subheading.text-muted Here are a few questions our clients come to us with.
+
+                    // <iframe class="clickup-embed clickup-dynamic-height" src="https://share-docs.clickup.com/42035737/d/h/182ugt-1768/0e547cff15dd660" onwheel="" width="100%" height="700px" style="background: transparent; border: 0;"></iframe>
 
         // About
         //section#about.page-section
@@ -221,7 +228,7 @@ html(lang='en')
                                 | Story!
 
         // Team
-        section#team.page-section.bg-light
+        //section#team.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Our Amazing Team
@@ -266,7 +273,7 @@ html(lang='en')
                             | HMN Consulting, LLC was founded by a team of experienced professionals partnering for 10 years. Our team of professionals will review existing infrastructure and field conditions during construction design. A dedicated team of unique individuals utilizing their expertise to achieve company and client goals.
 
         // Clients
-        div.py-5
+        //div.py-5
             .container
                 .row.align-items-center
                     .col-md-3.col-sm-6.my-3
