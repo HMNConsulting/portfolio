@@ -38,6 +38,10 @@ p {
         font-weight: 400;
         font-style: italic;
         font-family: $subheadings-font-family;
+        margin-bottom: 6rem;
+    }
+
+    p.section-subheading {
         margin-bottom: 4rem;
     }
 }
