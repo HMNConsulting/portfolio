@@ -14,6 +14,7 @@ header.masthead {
     background-size: cover;
 
     .masthead-subheading {
+        text-shadow: 2px 2px 5px gray;
         font-size: 1.5rem;
         font-style: italic;
         line-height: 1.5rem;
@@ -22,10 +23,12 @@ header.masthead {
     }
 
     .masthead-heading {
+        // animation: blinker 0.01s linear infinite;
+        text-shadow: 2px 2px 5px gray;
         font-size: 3.25rem;
         font-weight: 700;
         line-height: 3.25rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0; //2rem;
         font-family: $headings-font-family;
     }
 }
@@ -39,7 +42,7 @@ header.masthead {
             font-size: 2.25rem;
             font-style: italic;
             line-height: 2.25rem;
-            margin-bottom: 2rem;
+            margin-bottom: 0.5rem; //2rem;
         }
 
         .masthead-heading {

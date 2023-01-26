@@ -31,6 +31,7 @@
     .navbar-nav {
         .nav-item {
             .nav-link {
+                text-shadow: 1px 1px 3px gray;
                 font-family: $headings-font-family;
                 font-size: 0.95rem;
                 color: $white;
@@ -67,6 +68,7 @@
 
         // Styling for when the navbar shrinks on larger screens
         &.navbar-shrink {
+            text-shadow: 0;
             padding-top: 1rem;
             padding-bottom: 1rem;
             background-color: $gray-900;
