@@ -60,34 +60,51 @@ html(lang='en')
                     h2.section-heading.text-uppercase Services
                     // h3.section-subheading.text-muted A few of our core services and offerings
                 .row.text-center
-                    .col-md-4
+                    .col-md-3
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-phone.fa-stack-1x.fa-inverse
                         h4.my-3 Consultation
                         p.text-muted
-                            | We can provide assistance at many stages of your project, from site-analysis and feasibility studies to design and project management.
-                    .col-md-4
+                            | We can provide assistance at many stages of your project.
+                            li Project Management
+                            li Site-Analysis
+                            li Risk Mitigation
+                            li Feasibility Study
+                            li Utility Coordination
+                    .col-md-3
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-laptop.fa-stack-1x.fa-inverse
                         h4.my-3 Drafting
                         p.text-muted
                             | We provide a variety of drafting services including:
+                            li Encroachment Maintenance & Removal Agreements
                             li Construction Drawings
                             li Traffic Control Plans
-                            li Noise Permits
-                            li Utility Maps
-                            li EMRA
-                            
-                    .col-md-4
+                            // li Utility Maps
+                    .col-md-3
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-binoculars.fa-stack-1x.fa-inverse
+                        h4.my-3 Make-Ready Engineering
+                        p.text-muted
+                            | Fielding and structural loading for utility poles to accommodate the installation of new SC-WCF equipment
+                            li Site Surveys
+                            li Make-Ready Applications
+                            li Utility Pole Profiles
+                            li Structural Analysis
+                            li Photosimulations
+                    .col-md-3
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-pen-fancy.fa-stack-1x.fa-inverse
                         h4.my-3 Permitting
                         p.text-muted
                             | We are experiened with permitting requirements across Southern California, specializing in San Diego County and Greater Los Angeles.
-
+                            li Construction Drawing Permits
+                            li Traffic Control Permits
+                            li Noise Permits
         // Portfolio Grid
         section#portfolio.page-section.bg-light
             .container
@@ -104,8 +121,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/1.jpg', alt='an image of an example construction drawing')
                             .portfolio-caption
-                                .portfolio-caption-heading Construction Plan
-                                .portfolio-caption-subheading.text-muted Proposed gas and electric utility additions.
+                                .portfolio-caption-heading Construction Plan (Wet)
+                                .portfolio-caption-subheading.text-muted Proposed water utility addition.
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
@@ -113,9 +130,10 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/2_1.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/2_2.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Traffic Control
+                                .portfolio-caption-heading Traffic Control Plans
                                 .portfolio-caption-subheading.text-muted Temporary Traffic Control plans
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
@@ -128,7 +146,7 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading EMRA
                                 .portfolio-caption-subheading.text-muted Encroachment Maintenance and Removal Agreement
-                    //.col-lg-4.col-sm-6.mb-4.mb-lg-0
+                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
                         // Portfolio item 4
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
@@ -137,30 +155,30 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
-                    //.col-lg-4.col-sm-6.mb-4.mb-sm-0
+                                .portfolio-caption-heading Construction Plan (Dry)
+                                .portfolio-caption-subheading.text-muted Proposed electric utility addition.
+                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
                         // Portfolio item 5
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/5_1.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
-                    //.col-lg-4.col-sm-6
+                                .portfolio-caption-heading Construction Plan (SC-WCF Power Utility Coordination)
+                                .portfolio-caption-subheading.text-muted Proposed small cell utility trench connecting to approved Power Utility source.
+                    .col-lg-4.col-sm-6
                         // Portfolio item 6
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/5_2.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
+                                .portfolio-caption-heading Construction Plan Profile (SC-WCF Streetlight Profile)
+                                .portfolio-caption-subheading.text-muted Proposed small cell equipment on existing streetlight or replacement pole profile.
 
         // Questions
         //section#questions.page-section

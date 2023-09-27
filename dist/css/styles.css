@@ -11250,6 +11250,10 @@ p {
   line-height: 1.75;
 }
 
+.row {
+  justify-content: space-around;
+}
+
 .page-section {
   padding: 4rem 0;
 }
